@@ -6,12 +6,11 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="layer1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="876.0" style="-fx-background-color: #0A192F;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="layer1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="876.0" style="-fx-background-color: #0A192F;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginController">
    <children>
       <AnchorPane fx:id="layout1" layoutY="-15.0" prefHeight="590.0" prefWidth="306.0" style="-fx-background-color: #000000;">
          <children>
@@ -28,11 +27,7 @@
                   <Font name="Berlin Sans FB Demi Bold" size="25.0" />
                </font>
             </Label>
-            <ImageView fitHeight="275.0" fitWidth="296.0" layoutX="15.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../../../../../../../../../../foto%20bahan/20250510_143926.png" />
-               </image>
-            </ImageView>
+            <ImageView fitHeight="275.0" fitWidth="296.0" layoutX="15.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true" />
             <Button layoutX="74.0" layoutY="449.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="158.0" style="-fx-background-color: #3B82F6;" text="sign in">
                <font>
                   <Font size="21.0" />
