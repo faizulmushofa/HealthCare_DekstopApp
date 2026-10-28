@@ -21,7 +21,7 @@ public class LoginApiV2 {
     public static double TekananDarah;
     public static Map<String,Double> Target = new LinkedHashMap<>();
     public static double LastTarget;
-    private final String USER_DATA = "jdbc:sqlite:EMUYHealthCare/Database/User/Users.db";
+    private final String USER_DATA = "jdbc:sqlite:Database/User/Users.db";
 
     UserConnecting userConnecting = new UserConnecting();
     SceneController sceneController = new SceneController();
