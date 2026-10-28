@@ -37,6 +37,14 @@ build/
 ### Mac OS ###
 .DS_Store
 
-out
+out/
 
-docs
+# Binary artifacts - jangan pernah commit ini
+*.jar
+*.exe
+*.pdf
+
+# Maven wrapper jar dikecualikan
+!.mvn/wrapper/maven-wrapper.jar
+
+docs/*
