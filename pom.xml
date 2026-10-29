@@ -15,6 +15,9 @@
     <javafx.version>21.0.2</javafx.version>
     <junit.version>5.10.2</junit.version>
     <sqlite.version>3.45.0.0</sqlite.version>
+    <p6spy.version>3.9.1</p6spy.version>
+    <guice.version>7.0.0</guice.version>
+    <jbcrypt.version>0.4</jbcrypt.version>
   </properties>
 
   <dependencies>
@@ -51,11 +54,40 @@
       <version>${sqlite.version}</version>
     </dependency>
 
+    <!-- P6Spy - SQL query logger -->
+    <dependency>
+      <groupId>p6spy</groupId>
+      <artifactId>p6spy</artifactId>
+      <version>${p6spy.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.48</version>
+      <scope>provided</scope>
+    </dependency>
+
+
     <!-- JFoenix (Material Design UI) -->
     <dependency>
       <groupId>com.jfoenix</groupId>
       <artifactId>jfoenix</artifactId>
       <version>9.0.10</version>
+    </dependency>
+
+    <!-- Google Guice IoC -->
+    <dependency>
+      <groupId>com.google.inject</groupId>
+      <artifactId>guice</artifactId>
+      <version>${guice.version}</version>
+    </dependency>
+
+    <!-- Password Hashing (BCrypt) -->
+    <dependency>
+      <groupId>org.mindrot</groupId>
+      <artifactId>jbcrypt</artifactId>
+      <version>${jbcrypt.version}</version>
     </dependency>
 
     <!-- Logging -->

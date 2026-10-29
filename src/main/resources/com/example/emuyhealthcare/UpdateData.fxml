@@ -11,7 +11,7 @@
 <children>
             <AnchorPane fx:id="menuDasboard" layoutX="-3.0" layoutY="-3.2" prefHeight="772.0" prefWidth="183.0" style="-fx-background-color: #000000;" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="-3.0" AnchorPane.rightAnchor="1186.0" AnchorPane.topAnchor="-3.0">
                 <children>
-                    <ImageView fx:id="logoChatBot" fitHeight="193.0" fitWidth="198.0" layoutX="-11.0" layoutY="-8.0" pickOnBounds="true" preserveRatio="true">
+                    <ImageView fx:id="logoChatBot" fitHeight="64.0" fitWidth="64.0" layoutX="60.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
                         <image>
                             <Image url="@../../../images/logoemuy.png" />
                         </image>
